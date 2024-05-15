@@ -1,26 +1,26 @@
 Brain Tumor Classification
 
-Overview
+Overview:
 This project is a beginner-friendly exploration into the field of machine learning applied to medical imaging. It focuses on classifying brain images into two categories: healthy and with tumor. Utilizing a dataset from Kaggle, the model demonstrates high accuracy in distinguishing between healthy brains and those affected by tumors.
 
-Dataset
+Dataset:
 The dataset used for this project is sourced from Kaggle and comprises images categorized into two classes:
 
 - Healthy
 - Brain tumor
 The images were split into training and validation sets, allowing the model to learn and then validate its learning on unseen data.
 
-Results
+Results:
 After conducting approximately 10 tests, the model achieved an impressive accuracy of 99%. This high level of accuracy suggests that the model is highly effective at distinguishing between the two categories.
 
-How to Run
+How to Run:
 To replicate or further develop this project, follow these steps:
 
 Clone this repository.
 Install the required dependencies is necessary
 run brain_tumor_classification.py 
 
-Future Work
+Future Work:
 Potential future enhancements for this project include:
 
 Implementing additional data augmentation techniques to improve model robustness.
