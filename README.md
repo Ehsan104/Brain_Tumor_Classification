@@ -1,4 +1,5 @@
 Brain Tumor Classification
+
 Overview
 This project is a beginner-friendly exploration into the field of machine learning applied to medical imaging. It focuses on classifying brain images into two categories: healthy and with tumor. Utilizing a dataset from Kaggle, the model demonstrates high accuracy in distinguishing between healthy brains and those affected by tumors.
 
