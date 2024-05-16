@@ -2,7 +2,7 @@
 
 **Overview:**
 	
- This project is a beginner-friendly exploration into the field of machine learning applied to medical imaging. It focuses on classifying brain images into two categories: healthy and with tumor. Utilizing a dataset from Kaggle, the model demonstrates high accuracy in distinguishing between healthy brains and those affected by tumors.
+ This project is a beginner-friendly exploration into the field of machine learning applied to medical imaging. It focuses on classifying brain images into two categories: healthy and with tumors. Utilizing a dataset from Kaggle, the model demonstrates high accuracy in distinguishing between healthy brains and those affected by tumors.
 
 
 **Dataset:**
@@ -34,4 +34,4 @@ Testing the model on a more diverse set of images to ensure its effectiveness ac
 
 Exploring more complex models or ensemble techniques to further improve accuracy.
 
-Want to add a UI aspect where the user can input an image not from the dataset and then the model analyzes it and determines whether there is a brain tumor or not. 
+Currently working on using Streamlit to add a UI aspect where the user can input an image not from the dataset and then the model analyzes it and determines whether there is a brain tumor or not. 
