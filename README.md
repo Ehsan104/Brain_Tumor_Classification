@@ -2,7 +2,7 @@
 
 **Overview:**
 	
- This project is a beginner-friendly exploration into the field of machine learning applied to medical imaging. It focuses on classifying brain images into two categories: healthy and with tumors. Utilizing a dataset from Kaggle, the model demonstrates high accuracy in distinguishing between healthy brains and those affected by tumors.
+ This project is a beginner-friendly exploration into the field of machine learning applied to medical imaging. It focuses on classifying brain images into two categories: healthy and with tumors. Utilizing a dataset from Kaggle, the model demonstrates high accuracy in distinguishing between healthy brains and those affected by tumors. It also contains a UI where the user can upload a X-ray image and the model will determine whether there is a Tumor or not. (Just Completed) 
 
 
 **Dataset:**
@@ -22,7 +22,8 @@ To replicate or further develop this project, follow these steps:
 
 Clone this repository,
 Install the required dependencies if necessary,
-run brain_tumor_classification.py 
+run brain_tumor_classification.py
+then: Streamlit run App.py by adding the model you generate in place of the model already there
 
 
 **Future Work:
@@ -33,5 +34,3 @@ Implementing additional data augmentation techniques to improve model robustness
 Testing the model on a more diverse set of images to ensure its effectiveness across different demographics and scanner types.
 
 Exploring more complex models or ensemble techniques to further improve accuracy.
-
-Currently working on using Streamlit to add a UI aspect where the user can input an image not from the dataset and then the model analyzes it and determines whether there is a brain tumor or not. 
