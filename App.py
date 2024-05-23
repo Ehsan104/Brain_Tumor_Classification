@@ -9,8 +9,6 @@ model = tf.keras.models.load_model('model.h5') # Load the model that we desire t
 
 st.markdown("<h1 style='text-align: center;'>Brain Tumor Image Classification</h1>", unsafe_allow_html=True) # Title of the app
 
-st.markdown("<h6 style='text-align: center;'> Developed by: Neel, Ehsan, Arnay, Alexandra, Neera, and Oscar! </h6>", unsafe_allow_html=True) # Subtitle of the app, containing names of the developers
-
 if 'predicted_class' in st.session_state: #Initialize or clear previous prediction state 
     del st.session_state['predicted_class']
     
