@@ -1,5 +1,9 @@
 **Brain Tumor Classification**
 
+LINK TO THE APP:
+
+https://brain-tumor-classification-model.streamlit.app/
+
 **Overview:**
 	
  This project is a beginner-friendly exploration into the field of machine learning applied to medical imaging. It focuses on classifying brain images into two categories: healthy and with tumors. Utilizing a dataset from Kaggle, the model demonstrates high accuracy in distinguishing between healthy brains and those affected by tumors. It also contains a UI where the user can upload a X-ray image and the model will determine whether there is a Tumor or not. (Just Completed) 
